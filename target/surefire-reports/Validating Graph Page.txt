@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Validating Graph Page
+-------------------------------------------------------------------------------
+Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 143.322 s - in Validating Graph Page

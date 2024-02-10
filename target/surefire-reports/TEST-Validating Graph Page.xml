@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Validating Graph Page" time="143.322" tests="116" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sandh\.cache\selenium\chromedriver\win64\120.0.6099.109\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo\target\test-classes;C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo\target\classes;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\sandh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\sandh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sandh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sandh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sandh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sandh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sandh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\sandh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\sandh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sandh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sandh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sandh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sandh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sandh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sandh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sandh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sandh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\sandh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\sandh\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\sandh\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\sandh\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\sandh\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\sandh\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\sandh\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\sandh\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\sandh\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\sandh\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\sandh\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\sandh\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\sandh\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-maven\2.12.0\allure-maven-2.12.0.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sandh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-plugin-api\3.8.6\maven-plugin-api-3.8.6.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.1\plexus-utils-3.3.1.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-core\3.8.6\maven-core-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-model\3.8.6\maven-model-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-settings\3.8.6\maven-settings-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-settings-builder\3.8.6\maven-settings-builder-3.8.6.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-builder-support\3.8.6\maven-builder-support-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-repository-metadata\3.8.6\maven-repository-metadata-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-artifact\3.8.6\maven-artifact-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-model-builder\3.8.6\maven-model-builder-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-resolver-provider\3.8.6\maven-resolver-provider-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.6.3\maven-resolver-impl-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.6.3\maven-resolver-api-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.6.3\maven-resolver-spi-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.6.3\maven-resolver-util-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\sandh\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\sandh\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\sandh\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\sandh\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\sandh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sandh\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.7\doxia-sink-api-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.7\doxia-logging-api-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.7.4\doxia-decoration-model-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-core\1.7\doxia-core-1.7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar;C:\Users\sandh\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\sandh\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.7.4\doxia-site-renderer-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.7.4\doxia-skin-model-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.7\doxia-module-xhtml-1.7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\sandh\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\sandh\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\sandh\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\sandh\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\sandh\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\sandh\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\sandh\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\sandh\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.0\maven-common-artifact-filters-3.1.0.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\sandh\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\sandh\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandh\.m2\repository\net\lingala\zip4j\zip4j\1.3.3\zip4j-1.3.3.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.7.0\maven-plugin-annotations-3.7.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\3.3.0\maven-jxr-plugin-3.3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-jxr\3.3.0\maven-jxr-3.3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.8\wagon-provider-api-2.8.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\sandh\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\sandh\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\sandh\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sandh\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\sandh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\sandh\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\sandh\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sandh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\sandh\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sandh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sandh\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;C:\Users\sandh\.m2\repository\ch\qos\logback\logback-classic\1.3.11\logback-classic-1.3.11.jar;C:\Users\sandh\.m2\repository\ch\qos\logback\logback-core\1.3.11\logback-core-1.3.11.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.16.0\jackson-dataformat-yaml-2.16.0.jar;C:\Users\sandh\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-server\9.4.53.v20231009\jetty-server-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-http\9.4.53.v20231009\jetty-http-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-util\9.4.53.v20231009\jetty-util-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-io\9.4.53.v20231009\jetty-io-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-generator\2.25.0\allure-generator-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-plugin-api\2.25.0\allure-plugin-api-2.25.0.jar;C:\Users\sandh\.m2\repository\com\opencsv\opencsv\4.6\opencsv-4.6.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\sandh\.m2\repository\org\jetbrains\annotations\15.0\annotations-15.0.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.16.0\jackson-dataformat-xml-2.16.0.jar;C:\Users\sandh\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar;C:\Users\sandh\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.1\woodstox-core-6.5.1.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.16.0\jackson-module-jaxb-annotations-2.16.0.jar;C:\Users\sandh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sandh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sandh\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\sandh\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\sandh\.m2\repository\org\allurefw\allure1-model\1.0\allure1-model-1.0.jar;C:\Users\sandh\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\sandh\.m2\repository\com\github\baev\jaxb-utils\1.0\jaxb-utils-1.0.jar;C:\Users\sandh\.m2\repository\org\apache\tika\tika-core\2.9.1\tika-core-2.9.1.jar;C:\Users\sandh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sandh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sandh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\sandh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sandh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\sandh\AppData\Local\Temp\surefire9091126863414702639\surefirebooter3620169290098386093.jar C:\Users\sandh\AppData\Local\Temp\surefire9091126863414702639 2023-12-18T17-46-28_311-jvmRun1 surefire3397860154908901220tmp surefire_015990295423140469325tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo\target\test-classes;C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo\target\classes;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\sandh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\sandh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sandh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sandh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sandh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sandh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sandh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\sandh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sandh\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\sandh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\sandh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\sandh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sandh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sandh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sandh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sandh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sandh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sandh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sandh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sandh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\sandh\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\sandh\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\sandh\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\sandh\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\sandh\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\sandh\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\sandh\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\sandh\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\sandh\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\sandh\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\sandh\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\sandh\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\sandh\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\sandh\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-maven\2.12.0\allure-maven-2.12.0.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sandh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-plugin-api\3.8.6\maven-plugin-api-3.8.6.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.1\plexus-utils-3.3.1.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-core\3.8.6\maven-core-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-model\3.8.6\maven-model-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-settings\3.8.6\maven-settings-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-settings-builder\3.8.6\maven-settings-builder-3.8.6.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-builder-support\3.8.6\maven-builder-support-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-repository-metadata\3.8.6\maven-repository-metadata-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-artifact\3.8.6\maven-artifact-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-model-builder\3.8.6\maven-model-builder-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-resolver-provider\3.8.6\maven-resolver-provider-3.8.6.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.6.3\maven-resolver-impl-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.6.3\maven-resolver-api-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.6.3\maven-resolver-spi-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.6.3\maven-resolver-util-1.6.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\sandh\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\sandh\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\sandh\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\sandh\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\sandh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sandh\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.7\doxia-sink-api-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.7\doxia-logging-api-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.7.4\doxia-decoration-model-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-core\1.7\doxia-core-1.7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar;C:\Users\sandh\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\sandh\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.7.4\doxia-site-renderer-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.7.4\doxia-skin-model-1.7.4.jar;C:\Users\sandh\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.7\doxia-module-xhtml-1.7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\sandh\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\sandh\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\sandh\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\sandh\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\sandh\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\sandh\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\sandh\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\sandh\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\sandh\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\sandh\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\sandh\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.0\maven-common-artifact-filters-3.1.0.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\sandh\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\sandh\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\sandh\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandh\.m2\repository\net\lingala\zip4j\zip4j\1.3.3\zip4j-1.3.3.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandh\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.7.0\maven-plugin-annotations-3.7.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\3.3.0\maven-jxr-plugin-3.3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\maven-jxr\3.3.0\maven-jxr-3.3.0.jar;C:\Users\sandh\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.8\wagon-provider-api-2.8.jar;C:\Users\sandh\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\sandh\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\sandh\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\sandh\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sandh\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\sandh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\sandh\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\sandh\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sandh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sandh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\sandh\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sandh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sandh\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\sandh\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;C:\Users\sandh\.m2\repository\ch\qos\logback\logback-classic\1.3.11\logback-classic-1.3.11.jar;C:\Users\sandh\.m2\repository\ch\qos\logback\logback-core\1.3.11\logback-core-1.3.11.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.16.0\jackson-dataformat-yaml-2.16.0.jar;C:\Users\sandh\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-server\9.4.53.v20231009\jetty-server-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-http\9.4.53.v20231009\jetty-http-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-util\9.4.53.v20231009\jetty-util-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\org\eclipse\jetty\jetty-io\9.4.53.v20231009\jetty-io-9.4.53.v20231009.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-generator\2.25.0\allure-generator-2.25.0.jar;C:\Users\sandh\.m2\repository\io\qameta\allure\allure-plugin-api\2.25.0\allure-plugin-api-2.25.0.jar;C:\Users\sandh\.m2\repository\com\opencsv\opencsv\4.6\opencsv-4.6.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\sandh\.m2\repository\org\jetbrains\annotations\15.0\annotations-15.0.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\sandh\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.16.0\jackson-dataformat-xml-2.16.0.jar;C:\Users\sandh\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar;C:\Users\sandh\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.1\woodstox-core-6.5.1.jar;C:\Users\sandh\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.16.0\jackson-module-jaxb-annotations-2.16.0.jar;C:\Users\sandh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sandh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sandh\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\sandh\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\sandh\.m2\repository\org\allurefw\allure1-model\1.0\allure1-model-1.0.jar;C:\Users\sandh\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\sandh\.m2\repository\com\github\baev\jaxb-utils\1.0\jaxb-utils-1.0.jar;C:\Users\sandh\.m2\repository\org\apache\tika\tika-core\2.9.1\tika-core-2.9.1.jar;C:\Users\sandh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sandh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sandh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\sandh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\sandh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\sandh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sandh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sandh\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sandh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sandh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sandh\AppData\Local\Temp\surefire9091126863414702639\surefirebooter3620169290098386093.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="sandh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sandh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandh\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\sandh\DSAlgo4\codechamps\CodeChamps_Dsalgo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\sandh\apache-maven-3.9.6/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Users\sandh\allure-2.13.0\bin;C:\Users\sandh\apache-maven-3.9.6\bin;C:\Users\sandh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\sandh\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="User launch home page of an dsalgo project" classname="User launch dsalgo application and test Home page" time="3.802">
+    <system-out><![CDATA[[INFO ]2023-12-1817:46:38.619[main]utilities.LoggerLoad1]-Loading config file
+[INFO ]2023-12-1817:46:38.636[main]utilities.LoggerLoad1]-BROWSER:chrome
+[INFO ]2023-12-1817:46:38.636[main]utilities.LoggerLoad1]-Testing on chrome
+[INFO ]2023-12-1817:46:47.875[main]utilities.LoggerLoad1]-chrome
+
+@home @TS_home_01
+Scenario: User launch home page of an dsalgo project # src/test/resources/features/DS01_Home.feature:5
+  Given The user opens DS Algo portal link           # stepDefinition.Home_SD.the_user_opens_ds_algo_portal_link()
+  When The user clicks the "Get Started" button      # stepDefinition.Home_SD.the_user_clicks_the_button(java.lang.String)
+[INFO ]2023-12-1817:46:51.622[main]utilities.LoggerLoad1]-NumpyNinja
+  Then The user should be redirected to homepage     # stepDefinition.Home_SD.the_user_should_be_redirected_to_homepage()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Dec 18, 2023 5:46:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #1" classname="User launch dsalgo application and test Home page" time="3.844">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:18
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Arrays"                              # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:55.659[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #2" classname="User launch dsalgo application and test Home page" time="1.012">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:19
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Linked List"                         # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:56.681[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #3" classname="User launch dsalgo application and test Home page" time="0.899">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:20
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Stack"                               # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:57.579[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #4" classname="User launch dsalgo application and test Home page" time="0.833">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:21
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Queue"                               # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:58.415[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #5" classname="User launch dsalgo application and test Home page" time="0.688">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:22
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Tree"                                # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:59.096[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click dropdown without signin #6" classname="User launch dsalgo application and test Home page" time="0.756">
+    <system-out><![CDATA[
+@home @TS_home_02
+Scenario Outline: User is on home page and click dropdown without signin # src/test/resources/features/DS01_Home.feature:23
+  Given The user is on home page                                         # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user clicks on dropdown "Graph"                               # stepDefinition.Home_SD.the_user_clicks_on_dropdown(java.lang.String)
+[INFO ]2023-12-1817:46:59.855[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"              # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #1" classname="User launch dsalgo application and test Home page" time="0.583">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin # src/test/resources/features/DS01_Home.feature:33
+  Given The user is on home page                                           # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Array" without signin     # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:00.440[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #2" classname="User launch dsalgo application and test Home page" time="0.707">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin   # src/test/resources/features/DS01_Home.feature:34
+  Given The user is on home page                                             # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Linked List" without signin # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:01.152[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                  # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #3" classname="User launch dsalgo application and test Home page" time="0.597">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin # src/test/resources/features/DS01_Home.feature:35
+  Given The user is on home page                                           # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Stack" without signin     # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:01.748[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #4" classname="User launch dsalgo application and test Home page" time="0.885">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin # src/test/resources/features/DS01_Home.feature:36
+  Given The user is on home page                                           # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Queue" without signin     # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:02.630[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #5" classname="User launch dsalgo application and test Home page" time="0.798">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin # src/test/resources/features/DS01_Home.feature:37
+  Given The user is on home page                                           # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Tree" without signin      # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:03.428[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click getstarted without signin #6" classname="User launch dsalgo application and test Home page" time="0.78">
+    <system-out><![CDATA[
+@home @TS_home_03
+Scenario Outline: User is on home page and click getstarted without signin # src/test/resources/features/DS01_Home.feature:38
+  Given The user is on home page                                           # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on getstarted in homepage "Graph" without signin     # stepDefinition.Home_SD.the_user_click_on_getstarted_in_homepage_without_signin(java.lang.String)
+[INFO ]2023-12-1817:47:04.220[main]utilities.LoggerLoad1]-You are not logged in
+  Then The user get warning message "You are not logged in"                # stepDefinition.Home_SD.the_user_get_warning_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click Register link" classname="User launch dsalgo application and test Home page" time="0.465">
+    <system-out><![CDATA[
+@home @TS_home_04
+Scenario: User is on home page and click Register link # src/test/resources/features/DS01_Home.feature:41
+  Given The user is on home page                       # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on register link                 # stepDefinition.Home_SD.the_user_click_on_register_link()
+[INFO ]2023-12-1817:47:04.673[main]utilities.LoggerLoad1]-Registration
+  Then The user redirected to register page            # stepDefinition.Home_SD.the_user_redirected_to_register_page()
+]]></system-out>
+  </testcase>
+  <testcase name="User is on home page and click signin link" classname="User launch dsalgo application and test Home page" time="0.477">
+    <system-out><![CDATA[
+@home @TS_home_05
+Scenario: User is on home page and click signin link # src/test/resources/features/DS01_Home.feature:47
+  Given The user is on home page                     # stepDefinition.Home_SD.the_user_is_on_home_page()
+  When The user click on signin link                 # stepDefinition.Home_SD.the_user_click_on_signin_link()
+[INFO ]2023-12-1817:47:05.154[main]utilities.LoggerLoad1]-Login
+  Then The user redirected to login page             # stepDefinition.Home_SD.the_user_redirected_to_login_page()
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for empty field  username and password textbox" classname="Validating register page" time="0.866">
+    <system-out><![CDATA[
+@register @TS_register_01
+Scenario: The user get error message for empty field  username and password textbox # src/test/resources/features/DS02_Register.feature:5
+  Given The user open register page                                                 # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user click Register button                                               # stepDefinition.Register_SD.the_user_click_register_button()
+  Then It should display error message "Please fill out this field."                # stepDefinition.Register_SD.it_should_display_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for invalid  username" classname="Validating register page" time="1.268">
+    <system-out><![CDATA[
+@register @TS_register_02
+Scenario: The user get error message for invalid  username                                     # src/test/resources/features/DS02_Register.feature:11
+  Given The user open register page                                                            # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a "username" with characters other than Letters, digits and "@/./+/-/_" # stepDefinition.Register_SD.the_user_enters_a_with_characters_other_than_letters_digits_and(java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password | password confirmation |
+    | &*#%^89! | testuser | testuser              |
+  And The user click Register button                                                           # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user get error message "password_mismatch:The two password fields didn’t match."    # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for validate password #1" classname="Validating register page" time="0.889">
+    <system-out><![CDATA[
+@register @TS_register_03
+Scenario: The user get error message for validate password                                  # src/test/resources/features/DS02_Register.feature:20
+  Given The user open register page                                                         # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a valid "username" and "password" similar to username                # stepDefinition.Register_SD.the_user_enters_a_valid_and_similar_to_username(java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password | password confirmation |
+    | user     | user01   | user01                |
+  And The user click Register button                                                        # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user get error message "password_mismatch:The two password fields didn’t match." # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for validate password #2" classname="Validating register page" time="0.914">
+    <system-out><![CDATA[
+@register @TS_register_04
+Scenario: The user get error message for validate password                                  # src/test/resources/features/DS02_Register.feature:29
+  Given The user open register page                                                         # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a valid "username" and "password" with characters less than 8        # stepDefinition.Register_SD.the_user_enters_a_valid_and_with_characters_less_than(java.lang.String,java.lang.String,java.lang.Integer,io.cucumber.datatable.DataTable)
+    | username | password | password confirmation |
+    | user     | word     | word                  |
+  And The user click Register button                                                        # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user get error message "password_mismatch:The two password fields didn’t match." # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for validate password #3" classname="Validating register page" time="0.862">
+    <system-out><![CDATA[
+@register @TS_register_05
+Scenario: The user get error message for validate password                                  # src/test/resources/features/DS02_Register.feature:38
+  Given The user open register page                                                         # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a valid "username" and commonly used password "password"             # stepDefinition.Register_SD.the_user_enters_a_valid_and_commonly_used_password(java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password | password confirmation |
+    | user     | welcome  | welcome               |
+  And The user click Register button                                                        # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user get error message "password_mismatch:The two password fields didn’t match." # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user get error message for validate password #4" classname="Validating register page" time="1.618">
+    <system-out><![CDATA[
+@register @TS_register_06
+Scenario: The user get error message for validate password                                  # src/test/resources/features/DS02_Register.feature:47
+  Given The user open register page                                                         # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a valid "username" and "password" with only numbers                  # stepDefinition.Register_SD.the_user_enters_a_valid_and_with_only_numbers(java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password | password confirmation |
+    | user     | 12345678 | 12345678              |
+  And The user click Register button                                                        # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user get error message "password_mismatch:The two password fields didn’t match." # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user redirected to home page with valid credentials" classname="Validating register page" time="2.037">
+    <system-out><![CDATA[
+@register @TS_register_07
+Scenario: The user redirected to home page with valid credentials                                                    # src/test/resources/features/DS02_Register.feature:56
+  Given The user open register page                                                                                  # stepDefinition.Register_SD.the_user_open_register_page()
+  When The user enters a valid "username" and "password" and "password confirmation"                                 # stepDefinition.Register_SD.the_user_enters_a_valid_and_and(java.lang.String,java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password   | password confirmation |
+    | Numpy    | testuser01 | testuser01            |
+  And The user click Register button                                                                                 # stepDefinition.Register_SD.the_user_click_register_button()
+  Then The user should be redirected to homepage with message "New Account Created. You are logged in as <username>" # stepDefinition.Register_SD.the_user_should_be_redirected_to_homepage_with_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="Validating Login Page" time="2.029">
+    <system-out><![CDATA[
+@login @TS_login_01
+Scenario: Login with invalid credentials                             # src/test/resources/features/DS03_Login.feature:5
+  Given The user is on login page                                    # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter invalid "username" and "password"              # stepDefinition.Login_SD.the_user_enter_invalid_and(java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)
+    | username | password |
+    | Numpy    | [empty]  |
+    | [empty]  | testuser |
+    | [empty]  | [empty]  |
+  And The user click login button                                    # stepDefinition.Login_SD.the_user_click_login_button()
+  Then It should display error message "Please fill out this field." # stepDefinition.Register_SD.it_should_display_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid and invalid credentials #1" classname="Validating Login Page" time="2.761">
+    <system-out><![CDATA[
+@login @TS_login_02
+Scenario Outline: Login with valid and invalid credentials        # src/test/resources/features/DS03_Login.feature:23
+  Given The user is on login page                                 # stepDefinition.Login_SD.the_user_is_on_login_page()
+[INFO ]2023-12-1817:47:18.394[main]utilities.LoggerLoad1]-ERROR MESSAGE FROM SCREEN:Invalid Username and Password
+  When The user enter sheet "Sheet1" and 0                        # stepDefinition.Login_SD.the_user_enter_sheet_and(java.lang.String,java.lang.Integer)
+  Then The user get error message "Invalid Username and Password" # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid and invalid credentials #2" classname="Validating Login Page" time="0.851">
+    <system-out><![CDATA[
+@login @TS_login_02
+Scenario Outline: Login with valid and invalid credentials        # src/test/resources/features/DS03_Login.feature:24
+  Given The user is on login page                                 # stepDefinition.Login_SD.the_user_is_on_login_page()
+[INFO ]2023-12-1817:47:19.245[main]utilities.LoggerLoad1]-ERROR MESSAGE FROM SCREEN:Invalid Username and Password
+  When The user enter sheet "Sheet1" and 1                        # stepDefinition.Login_SD.the_user_enter_sheet_and(java.lang.String,java.lang.Integer)
+  Then The user get error message "Invalid Username and Password" # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid and invalid credentials #3" classname="Validating Login Page" time="1.227">
+    <system-out><![CDATA[
+@login @TS_login_02
+Scenario Outline: Login with valid and invalid credentials        # src/test/resources/features/DS03_Login.feature:25
+  Given The user is on login page                                 # stepDefinition.Login_SD.the_user_is_on_login_page()
+[INFO ]2023-12-1817:47:20.479[main]utilities.LoggerLoad1]-ERROR MESSAGE FROM SCREEN:Invalid Username and Password
+  When The user enter sheet "Sheet1" and 2                        # stepDefinition.Login_SD.the_user_enter_sheet_and(java.lang.String,java.lang.Integer)
+  Then The user get error message "Invalid Username and Password" # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid and invalid credentials #4" classname="Validating Login Page" time="1.371">
+    <system-out><![CDATA[
+@login @TS_login_02
+Scenario Outline: Login with valid and invalid credentials        # src/test/resources/features/DS03_Login.feature:26
+  Given The user is on login page                                 # stepDefinition.Login_SD.the_user_is_on_login_page()
+[INFO ]2023-12-1817:47:21.844[main]utilities.LoggerLoad1]-ERROR MESSAGE FROM SCREEN:Invalid Username and Password
+  When The user enter sheet "Sheet1" and 3                        # stepDefinition.Login_SD.the_user_enter_sheet_and(java.lang.String,java.lang.Integer)
+  Then The user get error message "Invalid Username and Password" # stepDefinition.Register_SD.the_user_get_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid  credentials" classname="Validating Login Page" time="1.321">
+    <system-out><![CDATA[
+@login @TS_login_03
+Scenario: Login with valid  credentials                      # src/test/resources/features/DS03_Login.feature:29
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:47:23.203[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Verify signout link" classname="Validating Login Page" time="1.528">
+    <system-out><![CDATA[
+@login @TS_login_04
+Scenario: Verify signout link                                                            # src/test/resources/features/DS03_Login.feature:35
+  Given The user is on login page with valid "Numpy" and "testuser01"                    # stepDefinition.Login_SD.the_user_is_on_login_page_with_valid_and(java.lang.String,java.lang.String)
+  When The user click signout link                                                       # stepDefinition.Login_SD.the_user_click_signout_link()
+[INFO ]2023-12-1817:47:24.727[main]utilities.LoggerLoad1]-Logged out successfully
+  Then The user should be redirected to home page with message "Logged out successfully" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_with_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to DS introduction page" classname="Validating DataStructure Page" time="2.856">
+    <system-out><![CDATA[
+@data_structure
+Scenario: The user is navigate to DS introduction page            # src/test/resources/features/DS04_Data.feature:4
+  Given The user is on login page                                 # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"                    # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:47:25.990[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy"      # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started                                 # stepDefinition.DataStructure_SD.the_user_click_get_started()
+[INFO ]2023-12-1817:47:26.420[main]utilities.LoggerLoad1]-Data Structures-Introduction
+  Then The user redirected to "Data Structures-Introduction" page # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+  When The user click Time complexity link                        # stepDefinition.DataStructure_SD.the_user_click_time_complexity_link()
+[INFO ]2023-12-1817:47:26.742[main]utilities.LoggerLoad1]-Time Complexity
+  Then The user redirected to "Time Complexity" page              # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+  When The user click Try here button                             # stepDefinition.DataStructure_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:27.583[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                   # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating DataStructure Page" time="1.061">
+    <system-out><![CDATA[
+@data_structure
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS04_Data.feature:22
+[INFO ]2023-12-1817:47:27.666[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:27.918[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:28.547[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:28.617[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:28.636[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:28.636[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:28.636[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating DataStructure Page" time="0.561">
+    <system-out><![CDATA[
+@data_structure
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS04_Data.feature:23
+[INFO ]2023-12-1817:47:28.729[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:28.976[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:29.148[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:47:29.199[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:29.200[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to array page" classname="Validating Array Page" time="1.598">
+    <system-out><![CDATA[
+@array @TS_array_01
+Scenario: The user is navigate to array page                 # src/test/resources/features/DS05_Array.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:47:30.383[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started in array panel             # stepDefinition.Array_SD.the_user_click_get_started_in_array_panel()
+[INFO ]2023-12-1817:47:30.802[main]utilities.LoggerLoad1]-Array
+  Then The user redirected to "Array" page                   # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to arrays in python page" classname="Validating Array Page" time="1.266">
+    <system-out><![CDATA[
+@array @TS_array_02
+Scenario: The user is navigate to arrays in python page  # src/test/resources/features/DS05_Array.feature:13
+  Given The user is on array page after logged in        # stepDefinition.Array_SD.the_user_is_on_array_page_after_logged_in()
+  When The user click on Arrays in Python link           # stepDefinition.Array_SD.the_user_click_on_arrays_in_python_link()
+[INFO ]2023-12-1817:47:31.554[main]utilities.LoggerLoad1]-Actual :Arrays in Python
+[INFO ]2023-12-1817:47:31.555[main]utilities.LoggerLoad1]-Expected: Arrays in Python
+  Then The user is redirected to "Arrays in Python" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                    # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:32.064[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:32.064[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page       # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating Array Page" time="0.7">
+    <system-out><![CDATA[
+@array
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS05_Array.feature:27
+[INFO ]2023-12-1817:47:32.230[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:32.500[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:32.733[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:47:32.766[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:32.767[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to arrays using list page" classname="Validating Array Page" time="1.008">
+    <system-out><![CDATA[
+@array @TS_array_03
+Scenario: The user is navigate to arrays using list page  # src/test/resources/features/DS05_Array.feature:30
+  Given The user is on array page after logged in         # stepDefinition.Array_SD.the_user_is_on_array_page_after_logged_in()
+  When The user click on Arrays Using List link           # stepDefinition.Array_SD.the_user_click_on_arrays_using_list_link()
+[INFO ]2023-12-1817:47:33.355[main]utilities.LoggerLoad1]-Actual :Arrays Using List
+[INFO ]2023-12-1817:47:33.356[main]utilities.LoggerLoad1]-Expected: Arrays Using List
+  Then The user is redirected to "Arrays Using List" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                     # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:33.753[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:33.753[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page        # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating Array Page" time="0.601">
+    <system-out><![CDATA[
+@array
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS05_Array.feature:44
+[INFO ]2023-12-1817:47:33.854[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:34.142[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:34.320[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:47:34.349[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:34.349[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to basic operations in lists page" classname="Validating Array Page" time="0.906">
+    <system-out><![CDATA[
+@array @TS_array_04
+Scenario: The user is navigate to basic operations in lists page  # src/test/resources/features/DS05_Array.feature:47
+  Given The user is on array page after logged in                 # stepDefinition.Array_SD.the_user_is_on_array_page_after_logged_in()
+  When The user click on Basic Operations in Lists link           # stepDefinition.Array_SD.the_user_click_on_basic_operations_in_lists_link()
+[INFO ]2023-12-1817:47:34.948[main]utilities.LoggerLoad1]-Actual :Basic Operations in Lists
+[INFO ]2023-12-1817:47:34.948[main]utilities.LoggerLoad1]-Expected: Basic Operations in Lists
+  Then The user is redirected to "Basic Operations in Lists" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                             # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:35.287[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:35.287[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="Validating Array Page" time="0.846">
+    <system-out><![CDATA[
+@array
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS05_Array.feature:61
+[INFO ]2023-12-1817:47:35.375[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:35.811[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:36.050[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:36.111[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:36.135[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:36.136[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:36.136[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to applications of array page" classname="Validating Array Page" time="1">
+    <system-out><![CDATA[
+@array @TS_array_05
+Scenario: The user is navigate to applications of array page  # src/test/resources/features/DS05_Array.feature:64
+  Given The user is on array page after logged in             # stepDefinition.Array_SD.the_user_is_on_array_page_after_logged_in()
+  When The user click on Applications of Array link           # stepDefinition.Array_SD.the_user_click_on_applications_of_array_link()
+[INFO ]2023-12-1817:47:36.776[main]utilities.LoggerLoad1]-Actual :Applications of Array
+[INFO ]2023-12-1817:47:36.776[main]utilities.LoggerLoad1]-Expected: Applications of Array
+  Then The user is redirected to "Applications of Array" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                         # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:37.139[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:37.140[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page            # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="Validating Array Page" time="0.748">
+    <system-out><![CDATA[
+@array
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS05_Array.feature:78
+[INFO ]2023-12-1817:47:37.217[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:37.510[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:37.808[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:37.858[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:37.878[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:37.878[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:37.878[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to practice questions page #1" classname="Validating Array Page" time="0.631">
+    <system-out><![CDATA[
+@array @TS_array_06
+Scenario: The user is navigate to practice questions page                                        # src/test/resources/features/DS05_Array.feature:81
+  Given The user is on pactice question page after logged in                                     # stepDefinition.Array_SD.the_user_is_on_pactice_question_page_after_logged_in()
+  When The user click on Search the array link                                                   # stepDefinition.Array_SD.the_user_click_on_search_the_array_link()
+[INFO ]2023-12-1817:47:38.481[main]utilities.LoggerLoad1]-User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ]2023-12-1817:47:38.510[main]utilities.LoggerLoad1]-Page Title is Assessment
+  Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons # stepDefinition.Array_SD.the_user_is_redirected_to_questions_page_contains_a_try_editor_with_run_and_submit_buttons()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to run code in tryEditor for Search the array link #1" classname="Validating Array Page" time="4.075">
+    <system-out><![CDATA[
+@array @TS_array_06
+Scenario Outline: The user is able to run code in tryEditor for Search the array link # src/test/resources/features/DS05_Array.feature:94
+[INFO ]2023-12-1817:47:38.616[main]utilities.LoggerLoad1]-EXPECTED:Element Found
+[INFO ]2023-12-1817:47:38.827[main]utilities.LoggerLoad1]-ENTERING INPUT:DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|def search(input_list, num):|ENTER|if(num in input_list):|ENTER|print("Element Found")|ENTER|BACKSPACE|BACKSPACE|else:|ENTER|print("Not Found")|ENTER|BACKSPACE|BACKSPACE|BACKSPACE|BACKSPACE|search([12, 23, 45, 67, 6, 90] , 12)
+  When The user enter the python code from sheet "Sheet3" and 0                       # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                                       # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:42.463[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:42.537[main]utilities.LoggerLoad1]-Element Found
+[INFO ]2023-12-1817:47:42.583[main]utilities.LoggerLoad1]-Element Found
+[INFO ]2023-12-1817:47:42.583[main]utilities.LoggerLoad1]-EXPECTED:Element Found
+[INFO ]2023-12-1817:47:42.583[main]utilities.LoggerLoad1]-ACTUAL:Element Found
+  Then The user should see the expected output                                        # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to practice questions page #2" classname="Validating Array Page" time="0.82">
+    <system-out><![CDATA[
+@array @TS_array_07
+Scenario: The user is navigate to practice questions page                                        # src/test/resources/features/DS05_Array.feature:97
+  Given The user is on pactice question page after logged in                                     # stepDefinition.Array_SD.the_user_is_on_pactice_question_page_after_logged_in()
+  When The user click on Search the array link                                                   # stepDefinition.Array_SD.the_user_click_on_search_the_array_link()
+[INFO ]2023-12-1817:47:43.399[main]utilities.LoggerLoad1]-User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ]2023-12-1817:47:43.408[main]utilities.LoggerLoad1]-Page Title is Assessment
+  Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons # stepDefinition.Array_SD.the_user_is_redirected_to_questions_page_contains_a_try_editor_with_run_and_submit_buttons()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to run code in tryEditor for Search the array link #2" classname="Validating Array Page" time="4.615">
+    <system-out><![CDATA[
+@array @TS_array_07
+Scenario Outline: The user is able to run code in tryEditor for Search the array link # src/test/resources/features/DS05_Array.feature:110
+[INFO ]2023-12-1817:47:43.498[main]utilities.LoggerLoad1]-EXPECTED: Some Tests failed. Please review code
+[INFO ]2023-12-1817:47:43.753[main]utilities.LoggerLoad1]-ENTERING INPUT:DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|DELETE|def search(input_list, num):|ENTER|if(num in input_list):|ENTER|print("Element Found")|ENTER|BACKSPACE|BACKSPACE|else:|ENTER|print("Not Found")|ENTER|BACKSPACE|BACKSPACE|BACKSPACE|BACKSPACE|search([12, 23, 45, 67, 6, 90] , 12)
+  When The user enter the python code from sheet "Sheet3" and 1                       # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click submit button                                                    # stepDefinition.Array_SD.the_user_click_submit_button()
+[INFO ]2023-12-1817:47:47.255[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:47.964[main]utilities.LoggerLoad1]- Some Tests failed. Please review code
+[INFO ]2023-12-1817:47:48.021[main]utilities.LoggerLoad1]- Some Tests failed. Please review code
+[INFO ]2023-12-1817:47:48.021[main]utilities.LoggerLoad1]-EXPECTED: Some Tests failed. Please review code
+[INFO ]2023-12-1817:47:48.021[main]utilities.LoggerLoad1]-ACTUAL: Some Tests failed. Please review code
+  Then The user should see the expected output                                        # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to practice questions page #3" classname="Validating Array Page" time="0.65">
+    <system-out><![CDATA[
+@array @TS_array_08
+Scenario: The user is navigate to practice questions page                                        # src/test/resources/features/DS05_Array.feature:113
+  Given The user is on pactice question page after logged in                                     # stepDefinition.Array_SD.the_user_is_on_pactice_question_page_after_logged_in()
+  When The user click on Max Consecutive Ones link                                               # stepDefinition.Array_SD.the_user_click_on_max_consecutive_ones_link()
+[INFO ]2023-12-1817:47:48.667[main]utilities.LoggerLoad1]-User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ]2023-12-1817:47:48.678[main]utilities.LoggerLoad1]-Page Title is Assessment
+  Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons # stepDefinition.Array_SD.the_user_is_redirected_to_questions_page_contains_a_try_editor_with_run_and_submit_buttons()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to practice questions page #4" classname="Validating Array Page" time="0.672">
+    <system-out><![CDATA[
+@array @TS_array_09
+Scenario: The user is navigate to practice questions page                                        # src/test/resources/features/DS05_Array.feature:119
+  Given The user is on pactice question page after logged in                                     # stepDefinition.Array_SD.the_user_is_on_pactice_question_page_after_logged_in()
+  When The user click on Find Numbers with Even Number of Digits link                            # stepDefinition.Array_SD.the_user_click_on_find_numbers_with_even_number_of_digits_link()
+[INFO ]2023-12-1817:47:49.333[main]utilities.LoggerLoad1]-User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ]2023-12-1817:47:49.349[main]utilities.LoggerLoad1]-Page Title is Assessment
+  Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons # stepDefinition.Array_SD.the_user_is_redirected_to_questions_page_contains_a_try_editor_with_run_and_submit_buttons()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to practice questions page #5" classname="Validating Array Page" time="0.578">
+    <system-out><![CDATA[
+@array @TS_array_10
+Scenario: The user is navigate to practice questions page                                        # src/test/resources/features/DS05_Array.feature:125
+  Given The user is on pactice question page after logged in                                     # stepDefinition.Array_SD.the_user_is_on_pactice_question_page_after_logged_in()
+  When The user click on Squares of a Sorted Array link                                          # stepDefinition.Array_SD.the_user_click_on_squares_of_a_sorted_array_link()
+[INFO ]2023-12-1817:47:49.910[main]utilities.LoggerLoad1]-User is redirected to Questions page having a Try Editor with Run button and Submit buttons
+[INFO ]2023-12-1817:47:49.926[main]utilities.LoggerLoad1]-Page Title is Assessment
+  Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons # stepDefinition.Array_SD.the_user_is_redirected_to_questions_page_contains_a_try_editor_with_run_and_submit_buttons()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to linkedlist page" classname="Validating Linked List Page" time="1.792">
+    <system-out><![CDATA[
+@link @TS_linked_01
+Scenario: The user is navigate to linkedlist page            # src/test/resources/features/DS06_Linked.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:47:51.307[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started in linked panel            # stepDefinition.Linked_SD.the_user_click_get_started_in_linked_panel()
+[INFO ]2023-12-1817:47:51.740[main]utilities.LoggerLoad1]-Linked List
+  Then The user redirected to "Linked List" page             # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to introduction page" classname="Validating Linked List Page" time="1.29">
+    <system-out><![CDATA[
+@link @TS_linked_02
+Scenario: The user is navigate to introduction page  # src/test/resources/features/DS06_Linked.feature:13
+  Given The user is on linkedlist page               # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "introduction" link         # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:47:51.993[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:47:51.993[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page  # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "introduction" link            # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:47:52.476[main]utilities.LoggerLoad1]-Actual :Introduction
+[INFO ]2023-12-1817:47:52.477[main]utilities.LoggerLoad1]-Expected: Introduction
+  Then The user is redirected to "Introduction" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:53.007[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:53.007[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page   # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating Linked List Page" time="0.769">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:29
+[INFO ]2023-12-1817:47:53.140[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:53.457[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:53.691[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:53.773[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:53.795[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:53.795[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:53.795[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to creating linked lIst page" classname="Validating Linked List Page" time="1.078">
+    <system-out><![CDATA[
+@link @TS_linked_03
+Scenario: The user is navigate to creating linked lIst page  # src/test/resources/features/DS06_Linked.feature:32
+  Given The user is on linkedlist page                       # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "creatinglinkedlist" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:47:54.077[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:47:54.078[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page          # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "creatinglinkedlist" link              # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:47:54.416[main]utilities.LoggerLoad1]-Actual :Creating Linked LIst
+[INFO ]2023-12-1817:47:54.416[main]utilities.LoggerLoad1]-Expected: Creating Linked LIst
+  Then The user is redirected to "Creating Linked LIst" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                        # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:54.859[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:54.860[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page           # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating Linked List Page" time="0.676">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:48
+[INFO ]2023-12-1817:47:54.944[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:55.219[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:55.426[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:47:55.524[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:55.551[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:47:55.551[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:47:55.552[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to types-of-linked-list page" classname="Validating Linked List Page" time="1.236">
+    <system-out><![CDATA[
+@link @TS_linked_04
+Scenario: The user is navigate to types-of-linked-list page  # src/test/resources/features/DS06_Linked.feature:51
+  Given The user is on linkedlist page                       # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "typesoflinkedlist" link            # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:47:55.967[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:47:55.967[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page          # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "typesoflinkedlist" link               # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:47:56.327[main]utilities.LoggerLoad1]-Actual :Types of Linked List
+[INFO ]2023-12-1817:47:56.327[main]utilities.LoggerLoad1]-Expected: Types of Linked List
+  Then The user is redirected to "Types of Linked List" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                        # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:56.786[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:56.786[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page           # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="Validating Linked List Page" time="0.663">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:67
+[INFO ]2023-12-1817:47:56.847[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:57.176[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:57.408[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:47:57.450[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:57.450[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to implement-linked-list-in-python page" classname="Validating Linked List Page" time="1.149">
+    <system-out><![CDATA[
+@link @TS_linked_05
+Scenario: The user is navigate to implement-linked-list-in-python page  # src/test/resources/features/DS06_Linked.feature:70
+  Given The user is on linkedlist page                                  # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "implementlinkedlistinpython" link             # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:47:57.725[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:47:57.726[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page                     # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "implementlinkedlistinpython" link                # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:47:58.236[main]utilities.LoggerLoad1]-Actual :Implement Linked List in Python
+[INFO ]2023-12-1817:47:58.236[main]utilities.LoggerLoad1]-Expected: Implement Linked List in Python
+  Then The user is redirected to "Implement Linked List in Python" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                                   # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:47:58.596[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:47:58.596[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                      # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="Validating Linked List Page" time="0.632">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:86
+[INFO ]2023-12-1817:47:58.691[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:58.989[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:47:59.186[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:47:59.233[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:47:59.234[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to traversal page" classname="Validating Linked List Page" time="1.007">
+    <system-out><![CDATA[
+@link @TS_linked_06
+Scenario: The user is navigate to traversal page    # src/test/resources/features/DS06_Linked.feature:89
+  Given The user is on linkedlist page              # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "traversal" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:47:59.454[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:47:59.454[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "traversal" link              # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:47:59.838[main]utilities.LoggerLoad1]-Actual :Traversal
+[INFO ]2023-12-1817:47:59.838[main]utilities.LoggerLoad1]-Expected: Traversal
+  Then The user is redirected to "Traversal" page   # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button               # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:00.229[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:00.230[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page  # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #5" classname="Validating Linked List Page" time="0.507">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:105
+[INFO ]2023-12-1817:48:00.306[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:00.535[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:00.719[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:00.739[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:00.739[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to insertion-in-linked-list page" classname="Validating Linked List Page" time="1.114">
+    <system-out><![CDATA[
+@link @TS_linked_07
+Scenario: The user is navigate to insertion-in-linked-list page # src/test/resources/features/DS06_Linked.feature:108
+  Given The user is on linkedlist page                          # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "insertioninlinkedlist" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:01.002[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:48:01.002[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page             # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "insertioninlinkedlist" link              # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:48:01.418[main]utilities.LoggerLoad1]-Actual :Insertion
+[INFO ]2023-12-1817:48:01.418[main]utilities.LoggerLoad1]-Expected: Insertion
+  Then The user is redirected to "Insertion" page               # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                           # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:01.852[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:01.852[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page              # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #6" classname="Validating Linked List Page" time="0.591">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:124
+[INFO ]2023-12-1817:48:01.936[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:02.212[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:02.392[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:02.446[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:02.447[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to deletion-in-linked-list page" classname="Validating Linked List Page" time="1.156">
+    <system-out><![CDATA[
+@link @TS_linked_08
+Scenario: The user is navigate to deletion-in-linked-list page # src/test/resources/features/DS06_Linked.feature:127
+  Given The user is on linkedlist page                         # stepDefinition.Linked_SD.the_user_is_on_linkedlist_page()
+  When The user click on "deletioninlinkedlist" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:02.734[main]utilities.LoggerLoad1]-Actual :Linked List
+[INFO ]2023-12-1817:48:02.734[main]utilities.LoggerLoad1]-Expected: Linked List
+  Then The user is redirected to "Linked List" page            # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click "deletioninlinkedlist" link              # stepDefinition.Linked_SD.the_user_click_link(java.lang.String)
+[INFO ]2023-12-1817:48:03.166[main]utilities.LoggerLoad1]-Actual :Deletion
+[INFO ]2023-12-1817:48:03.166[main]utilities.LoggerLoad1]-Expected: Deletion
+  Then The user is redirected to "Deletion" page               # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                          # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:03.604[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:03.606[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page             # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #7" classname="Validating Linked List Page" time="0.616">
+    <system-out><![CDATA[
+@link
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS06_Linked.feature:143
+[INFO ]2023-12-1817:48:03.715[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:04.045[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:04.206[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:04.218[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:04.218[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to Stack page" classname="Validating Stack Page" time="1.777">
+    <system-out><![CDATA[
+@stack @TS_stack_01
+Scenario: The user is navigate to Stack page                 # src/test/resources/features/DS07_Stack.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:48:05.578[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started on "Stack" page            # stepDefinition.Stack_SD.the_user_click_get_started_on_page(java.lang.String)
+[INFO ]2023-12-1817:48:06.005[main]utilities.LoggerLoad1]-Stack
+  Then The user redirected to "Stack" page                   # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User verifies Operations in Stack link" classname="Validating Stack Page" time="0.966">
+    <system-out><![CDATA[
+@stack @TS_stack_02
+Scenario: User verifies Operations in Stack link     # src/test/resources/features/DS07_Stack.feature:13
+  Given User is in the Stack Page after logged in    # stepDefinition.Stack_SD.user_is_in_the_stack_page_after_logged_in()
+  When User clicks on the Operations in Stack link   # stepDefinition.Stack_SD.user_clicks_on_the_operations_in_stack_link()
+  Then User redirected to "Operations in Stack" page # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button                # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:06.974[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:06.974[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page   # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating Stack Page" time="0.766">
+    <system-out><![CDATA[
+@stack
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS07_Stack.feature:27
+[INFO ]2023-12-1817:48:07.097[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:07.427[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:07.666[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:07.713[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:07.738[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:07.739[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:07.739[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating Stack Page" time="0.602">
+    <system-out><![CDATA[
+@stack
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS07_Stack.feature:28
+[INFO ]2023-12-1817:48:07.786[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:08.059[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:08.292[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:08.342[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:08.342[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="User verifies Implementation link" classname="Validating Stack Page" time="0.998">
+    <system-out><![CDATA[
+@stack @TS_stack_03
+Scenario: User verifies Implementation link        # src/test/resources/features/DS07_Stack.feature:31
+  Given User is in the Stack Page after logged in  # stepDefinition.Stack_SD.user_is_in_the_stack_page_after_logged_in()
+  When User clicks on the Implementation link      # stepDefinition.Stack_SD.user_clicks_on_the_implementation_link()
+  Then User redirected to "Implementation" page    # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button              # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:09.336[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:09.336[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="Validating Stack Page" time="0.675">
+    <system-out><![CDATA[
+@stack
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS07_Stack.feature:45
+[INFO ]2023-12-1817:48:09.425[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:09.697[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:09.945[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:09.986[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:10.013[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:10.013[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:10.014[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="User verifies Applications link" classname="Validating Stack Page" time="1.096">
+    <system-out><![CDATA[
+@stack @TS_stack_04
+Scenario: User verifies Applications link          # src/test/resources/features/DS07_Stack.feature:48
+  Given User is in the Stack Page after logged in  # stepDefinition.Stack_SD.user_is_in_the_stack_page_after_logged_in()
+  When User clicks on the Applications link        # stepDefinition.Stack_SD.user_clicks_on_the_applications_link()
+  Then User redirected to "Applications" page      # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button              # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:11.111[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:11.111[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="Validating Stack Page" time="0.613">
+    <system-out><![CDATA[
+@stack
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS07_Stack.feature:62
+[INFO ]2023-12-1817:48:11.149[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:11.409[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:11.655[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:11.708[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:11.727[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:11.727[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:11.727[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to queue page" classname="User launch DSAlgo application and test Queue page" time="1.405">
+    <system-out><![CDATA[
+@queue @TS_queue_01
+Scenario: The user is navigate to queue page                 # src/test/resources/features/DS08_Queue.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:48:12.877[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started in queue panel             # stepDefinition.Queue_SD.the_user_click_get_started_in_queue_panel()
+[INFO ]2023-12-1817:48:13.135[main]utilities.LoggerLoad1]-Queue
+  Then The user redirected to "Queue" page                   # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to navigate to the Implementation of Queue in Python page" classname="User launch DSAlgo application and test Queue page" time="1.466">
+    <system-out><![CDATA[
+@queue @TS_queue_02
+Scenario: The user is able to navigate to the Implementation of Queue in Python page # src/test/resources/features/DS08_Queue.feature:13
+  Given User is in the Queue Page after logged in                                    # stepDefinition.Queue_SD.user_is_in_the_queue_page_after_logged_in()
+  When User clicks on the Implementation of Queue in Python link                     # stepDefinition.Queue_SD.user_clicks_on_the_implementation_of_queue_in_python_link()
+  Then User redirected to "Implementation of Queue in Python" page                   # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button                                                # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:14.595[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:14.595[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                                   # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="User launch DSAlgo application and test Queue page" time="0.852">
+    <system-out><![CDATA[
+@queue
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS08_Queue.feature:27
+[INFO ]2023-12-1817:48:14.657[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:15.015[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:15.258[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:15.418[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:15.449[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:15.449[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:15.449[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to navigate to the Implementation using collections.deque page" classname="User launch DSAlgo application and test Queue page" time="1.561">
+    <system-out><![CDATA[
+@queue @TS_queue_03
+Scenario: The user is able to navigate to the Implementation using collections.deque page # src/test/resources/features/DS08_Queue.feature:30
+  Given User is in the Queue Page after logged in                                         # stepDefinition.Queue_SD.user_is_in_the_queue_page_after_logged_in()
+  When User clicks on the Implementation using collections.deque link                     # stepDefinition.Queue_SD.user_clicks_on_the_implementation_using_collections_deque_link()
+  Then User redirected to "Implementation using collections.deque" page                   # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button                                                     # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:17.017[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:17.017[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                                        # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="User launch DSAlgo application and test Queue page" time="0.663">
+    <system-out><![CDATA[
+@queue
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS08_Queue.feature:44
+[INFO ]2023-12-1817:48:17.103[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:17.367[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:17.602[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:17.652[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:17.674[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:17.674[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:17.674[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to navigate to the Implementation using array page" classname="User launch DSAlgo application and test Queue page" time="3.209">
+    <system-out><![CDATA[
+@queue @TS_queue_04
+Scenario: The user is able to navigate to the Implementation using array page # src/test/resources/features/DS08_Queue.feature:47
+  Given User is in the Queue Page after logged in                             # stepDefinition.Queue_SD.user_is_in_the_queue_page_after_logged_in()
+  When User clicks on the Implementation using array link                     # stepDefinition.Queue_SD.user_clicks_on_the_implementation_using_array_link()
+  Then User redirected to "Implementation using array" page                   # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button                                         # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:20.879[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:20.879[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                            # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="User launch DSAlgo application and test Queue page" time="0.909">
+    <system-out><![CDATA[
+@queue
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS08_Queue.feature:61
+[INFO ]2023-12-1817:48:20.961[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:21.491[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:21.706[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:21.767[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:21.798[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:21.798[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:21.798[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is able to navigate to the Queue Operations page" classname="User launch DSAlgo application and test Queue page" time="1.146">
+    <system-out><![CDATA[
+@queue @TS_queue_05
+Scenario: The user is able to navigate to the Queue Operations page # src/test/resources/features/DS08_Queue.feature:64
+  Given User is in the Queue Page after logged in                   # stepDefinition.Queue_SD.user_is_in_the_queue_page_after_logged_in()
+  When User clicks on the Queue Operations link                     # stepDefinition.Queue_SD.user_clicks_on_the_queue_operations_link()
+  Then User redirected to "Queue Operations" page                   # stepDefinition.Queue_SD.user_redirected_to_page(java.lang.String)
+  When The user click try here button                               # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:22.935[main]utilities.LoggerLoad1]-Actual :Assessment
+[INFO ]2023-12-1817:48:22.937[main]utilities.LoggerLoad1]-Expected: Assessment
+  Then The user is redirected to "Assessment" page                  # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="User launch DSAlgo application and test Queue page" time="0.637">
+    <system-out><![CDATA[
+@queue
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS08_Queue.feature:78
+[INFO ]2023-12-1817:48:23.001[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:23.258[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:23.505[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:23.554[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:23.578[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:23.578[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:23.578[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to tree page" classname="Validating Tree Page" time="1.875">
+    <system-out><![CDATA[
+@tree @TS_tree_01
+Scenario: The user is navigate to tree page                  # src/test/resources/features/DS09_Tree.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:48:24.848[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started in tree panel              # stepDefinition.Tree_SD.the_user_click_get_started_in_tree_panel()
+[INFO ]2023-12-1817:48:25.464[main]utilities.LoggerLoad1]-Tree
+  Then The user redirected to "Tree" page                    # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the overview of trees" classname="Validating Tree Page" time="1.436">
+    <system-out><![CDATA[
+@tree @TS_tree_02
+Scenario: The user is validating the overview of trees    # src/test/resources/features/DS09_Tree.feature:13
+  Given The user is on tree page                          # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "overviewoftrees" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:26.372[main]utilities.LoggerLoad1]-Actual :Overview of Trees
+[INFO ]2023-12-1817:48:26.372[main]utilities.LoggerLoad1]-Expected: Overview of Trees
+  Then The user is redirected to "Overview of Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                     # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:26.905[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page           # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating Tree Page" time="1.028">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:27
+[INFO ]2023-12-1817:48:27.039[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:27.395[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:27.843[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:27.911[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:27.936[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:27.936[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:27.936[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating Tree Page" time="0.476">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:28
+[INFO ]2023-12-1817:48:27.975[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:28.224[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:28.391[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:28.408[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:28.408[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the terminologies" classname="Validating Tree Page" time="1.379">
+    <system-out><![CDATA[
+@tree @Ts_tree_03
+Scenario: The user is validating the terminologies    # src/test/resources/features/DS09_Tree.feature:31
+  Given The user is on tree page                      # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "terminologies" link         # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:29.393[main]utilities.LoggerLoad1]-Actual :Terminologies
+[INFO ]2023-12-1817:48:29.394[main]utilities.LoggerLoad1]-Expected: Terminologies
+  Then The user is redirected to "Terminologies" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                 # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:29.784[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page       # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="Validating Tree Page" time="0.63">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:45
+[INFO ]2023-12-1817:48:29.843[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:30.087[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:30.319[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:30.371[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:30.414[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:30.415[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:30.415[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="Validating Tree Page" time="0.808">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:46
+[INFO ]2023-12-1817:48:30.482[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:30.977[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:31.176[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:31.221[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:31.221[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the types-of-trees" classname="Validating Tree Page" time="1.041">
+    <system-out><![CDATA[
+@tree @Ts_tree_04
+Scenario: The user is validating the types-of-trees    # src/test/resources/features/DS09_Tree.feature:49
+  Given The user is on tree page                       # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "typesoftrees" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:31.821[main]utilities.LoggerLoad1]-Actual :Types of Trees
+[INFO ]2023-12-1817:48:31.821[main]utilities.LoggerLoad1]-Expected: Types of Trees
+  Then The user is redirected to "Types of Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                  # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:32.272[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page        # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #5" classname="Validating Tree Page" time="0.602">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:63
+[INFO ]2023-12-1817:48:32.325[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:32.572[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:32.790[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:32.847[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:32.871[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:32.871[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:32.871[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the tree-traversals" classname="Validating Tree Page" time="1.024">
+    <system-out><![CDATA[
+@tree @Ts_tree_05
+Scenario: The user is validating the tree-traversals    # src/test/resources/features/DS09_Tree.feature:66
+  Given The user is on tree page                        # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "treetraversals" link          # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:33.514[main]utilities.LoggerLoad1]-Actual :Tree Traversals
+[INFO ]2023-12-1817:48:33.514[main]utilities.LoggerLoad1]-Expected: Tree Traversals
+  Then The user is redirected to "Tree Traversals" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                   # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:33.897[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page         # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #6" classname="Validating Tree Page" time="0.644">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:80
+[INFO ]2023-12-1817:48:33.942[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:34.230[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:34.455[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:34.520[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:34.537[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:34.537[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:34.537[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the traversals-illustration" classname="Validating Tree Page" time="1.057">
+    <system-out><![CDATA[
+@tree @Ts_tree_06
+Scenario: The user is validating the traversals-illustration    # src/test/resources/features/DS09_Tree.feature:83
+  Given The user is on tree page                                # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "traversalsillustration" link          # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:35.088[main]utilities.LoggerLoad1]-Actual :Traversals-Illustration
+[INFO ]2023-12-1817:48:35.088[main]utilities.LoggerLoad1]-Expected: Traversals-Illustration
+  Then The user is redirected to "Traversals-Illustration" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                           # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:35.588[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                 # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #7" classname="Validating Tree Page" time="0.818">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:97
+[INFO ]2023-12-1817:48:35.645[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:36.182[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:36.357[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:36.415[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:36.416[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the binary-trees" classname="Validating Tree Page" time="1.055">
+    <system-out><![CDATA[
+@tree @Ts_tree_07
+Scenario: The user is validating the binary-trees    # src/test/resources/features/DS09_Tree.feature:100
+  Given The user is on tree page                     # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "binarytrees" link          # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:37.077[main]utilities.LoggerLoad1]-Actual :Binary Trees
+[INFO ]2023-12-1817:48:37.077[main]utilities.LoggerLoad1]-Expected: Binary Trees
+  Then The user is redirected to "Binary Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:37.465[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page      # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #8" classname="Validating Tree Page" time="0.534">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:114
+[INFO ]2023-12-1817:48:37.523[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:37.752[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:37.964[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:37.998[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:37.998[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the types-of-binary-trees" classname="Validating Tree Page" time="1.237">
+    <system-out><![CDATA[
+@tree @Ts_tree_08
+Scenario: The user is validating the types-of-binary-trees    # src/test/resources/features/DS09_Tree.feature:117
+  Given The user is on tree page                              # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "typesofbinarytrees" link            # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:38.787[main]utilities.LoggerLoad1]-Actual :Types of Binary Trees
+[INFO ]2023-12-1817:48:38.788[main]utilities.LoggerLoad1]-Expected: Types of Binary Trees
+  Then The user is redirected to "Types of Binary Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                         # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:39.241[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page               # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #9" classname="Validating Tree Page" time="0.727">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:131
+[INFO ]2023-12-1817:48:39.297[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:39.641[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:39.926[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:39.964[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:39.964[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the implementation-in-python" classname="Validating Tree Page" time="1.242">
+    <system-out><![CDATA[
+@tree @Ts_tree_09
+Scenario: The user is validating the implementation-in-python    # src/test/resources/features/DS09_Tree.feature:134
+  Given The user is on tree page                                 # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "implementationinpython" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:40.748[main]utilities.LoggerLoad1]-Actual :Implementation in Python
+[INFO ]2023-12-1817:48:40.749[main]utilities.LoggerLoad1]-Expected: Implementation in Python
+  Then The user is redirected to "Implementation in Python" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                            # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:41.206[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                  # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #10" classname="Validating Tree Page" time="0.615">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:148
+[INFO ]2023-12-1817:48:41.260[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:41.515[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:41.748[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:41.796[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:41.827[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:41.827[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:41.828[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the binary-tree-traversals" classname="Validating Tree Page" time="1.103">
+    <system-out><![CDATA[
+@tree @Ts_tree_10
+Scenario: The user is validating the binary-tree-traversals    # src/test/resources/features/DS09_Tree.feature:151
+  Given The user is on tree page                               # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "binarytreetraversals" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:42.471[main]utilities.LoggerLoad1]-Actual :Binary Tree Traversals
+[INFO ]2023-12-1817:48:42.471[main]utilities.LoggerLoad1]-Expected: Binary Tree Traversals
+  Then The user is redirected to "Binary Tree Traversals" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                          # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:42.928[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #11" classname="Validating Tree Page" time="0.658">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:165
+[INFO ]2023-12-1817:48:42.974[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:43.230[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:43.485[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:43.553[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:43.584[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:43.584[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:43.584[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the implementation-of-binary-trees" classname="Validating Tree Page" time="1.061">
+    <system-out><![CDATA[
+@tree @Ts_tree_11
+Scenario: The user is validating the implementation-of-binary-trees    # src/test/resources/features/DS09_Tree.feature:168
+  Given The user is on tree page                                       # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "implementationofbinarytrees" link            # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:44.238[main]utilities.LoggerLoad1]-Actual :Implementation of Binary Trees
+[INFO ]2023-12-1817:48:44.238[main]utilities.LoggerLoad1]-Expected: Implementation of Binary Trees
+  Then The user is redirected to "Implementation of Binary Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                                  # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:44.645[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                        # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #12" classname="Validating Tree Page" time="0.831">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:182
+[INFO ]2023-12-1817:48:44.724[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:45.038[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:45.384[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:45.444[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:45.482[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:45.482[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:45.482[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the applications-of-binary-trees" classname="Validating Tree Page" time="1.658">
+    <system-out><![CDATA[
+@tree @Ts_tree_12
+Scenario: The user is validating the applications-of-binary-trees    # src/test/resources/features/DS09_Tree.feature:185
+  Given The user is on tree page                                     # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "applicationsofbinarytrees" link            # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:46.421[main]utilities.LoggerLoad1]-Actual :Applications of Binary trees
+[INFO ]2023-12-1817:48:46.421[main]utilities.LoggerLoad1]-Expected: Applications of Binary trees
+  Then The user is redirected to "Applications of Binary trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                                # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:47.124[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                      # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #13" classname="Validating Tree Page" time="0.764">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:199
+[INFO ]2023-12-1817:48:47.206[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:47.483[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:47.808[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:47.864[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:47.891[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:47.891[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:47.891[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the binary-search-trees" classname="Validating Tree Page" time="1.714">
+    <system-out><![CDATA[
+@tree @Ts_tree_13
+Scenario: The user is validating the binary-search-trees    # src/test/resources/features/DS09_Tree.feature:202
+  Given The user is on tree page                            # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "binarysearchtrees" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:49.251[main]utilities.LoggerLoad1]-Actual :Binary Search Trees
+[INFO ]2023-12-1817:48:49.251[main]utilities.LoggerLoad1]-Expected: Binary Search Trees
+  Then The user is redirected to "Binary Search Trees" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                       # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:49.619[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page             # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #14" classname="Validating Tree Page" time="0.634">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:216
+[INFO ]2023-12-1817:48:49.656[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:49.936[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:50.147[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:50.219[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:50.244[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:50.244[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:50.244[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is validating the implementation-of-bst" classname="Validating Tree Page" time="1.648">
+    <system-out><![CDATA[
+@tree @Ts_tree_14
+Scenario: The user is validating the implementation-of-bst    # src/test/resources/features/DS09_Tree.feature:219
+  Given The user is on tree page                              # stepDefinition.Tree_SD.the_user_is_on_tree_page()
+  When The user click on "implementationofbst" link           # stepDefinition.Tree_SD.the_user_click_on_link(java.lang.String)
+[INFO ]2023-12-1817:48:51.312[main]utilities.LoggerLoad1]-Actual :Implementation Of BST
+[INFO ]2023-12-1817:48:51.312[main]utilities.LoggerLoad1]-Expected: Implementation Of BST
+  Then The user is redirected to "Implementation Of BST" page # stepDefinition.Tree_SD.the_user_is_redirected_to_page(java.lang.String)
+  When The user click try here button                         # stepDefinition.Tree_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:51.898[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page               # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #15" classname="Validating Tree Page" time="0.811">
+    <system-out><![CDATA[
+@tree
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS09_Tree.feature:233
+[INFO ]2023-12-1817:48:51.997[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:52.306[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:52.616[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:52.683[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:52.712[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:52.712[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:52.712[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user is navigate to Graph page" classname="Validating Graph Page" time="1.492">
+    <system-out><![CDATA[
+@graph @TS_graph_01
+Scenario: The user is navigate to Graph page                 # src/test/resources/features/DS10_Graph.feature:5
+  Given The user is on login page                            # stepDefinition.Login_SD.the_user_is_on_login_page()
+  When The user enter "Numpy" and "testuser01"               # stepDefinition.Login_SD.the_user_enter_and(java.lang.String,java.lang.String)
+[INFO ]2023-12-1817:48:53.895[main]utilities.LoggerLoad1]-Numpy
+  Then The user should be redirected to home page as "Numpy" # stepDefinition.Login_SD.the_user_should_be_redirected_to_home_page_as(java.lang.String)
+  When The user click get started button on "Graph" page     # stepDefinition.Graph_SD.the_user_click_get_started_button_on_page(java.lang.String)
+[INFO ]2023-12-1817:48:54.202[main]utilities.LoggerLoad1]-Graph
+  Then The user redirected to "Graph" page                   # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="User verifies Graph link" classname="Validating Graph Page" time="0.906">
+    <system-out><![CDATA[
+@graph @TS_graph_02
+Scenario: User verifies Graph link               # src/test/resources/features/DS10_Graph.feature:13
+  Given The user is on graph page                # stepDefinition.Graph_SD.the_user_is_on_graph_page()
+  When The user click "graph" link in Graph Page # stepDefinition.Graph_SD.the_user_click_link_in_Graph_Page(java.lang.String)
+[INFO ]2023-12-1817:48:54.734[main]utilities.LoggerLoad1]-Graph
+  Then The user redirected to "Graph" page       # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+  When The user click Try here button            # stepDefinition.DataStructure_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:55.111[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page  # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #1" classname="Validating Graph Page" time="0.689">
+    <system-out><![CDATA[
+@graph
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS10_Graph.feature:27
+[INFO ]2023-12-1817:48:55.159[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:55.417[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:55.721[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:55.775[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:55.797[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:55.797[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:55.797[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #2" classname="Validating Graph Page" time="0.74">
+    <system-out><![CDATA[
+@graph
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS10_Graph.feature:28
+[INFO ]2023-12-1817:48:55.823[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:56.331[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:56.499[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:56.533[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:56.533[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="User verifies Graph Representations link" classname="Validating Graph Page" time="1.261">
+    <system-out><![CDATA[
+@graph @TS_graph_03
+Scenario: User verifies Graph Representations link               # src/test/resources/features/DS10_Graph.feature:31
+  Given The user is on graph page                                # stepDefinition.Graph_SD.the_user_is_on_graph_page()
+  When The user click "graph-representations" link in Graph Page # stepDefinition.Graph_SD.the_user_click_link_in_Graph_Page(java.lang.String)
+[INFO ]2023-12-1817:48:57.248[main]utilities.LoggerLoad1]-Graph Representations
+  Then The user redirected to "Graph Representations" page       # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+  When The user click Try here button                            # stepDefinition.DataStructure_SD.the_user_click_try_here_button()
+[INFO ]2023-12-1817:48:57.797[main]utilities.LoggerLoad1]-Assessment
+  Then The user redirected to "Assessment" page                  # stepDefinition.DataStructure_SD.the_user_redirected_to_page(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #3" classname="Validating Graph Page" time="0.623">
+    <system-out><![CDATA[
+@graph
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS10_Graph.feature:45
+[INFO ]2023-12-1817:48:57.855[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:58.096[main]utilities.LoggerLoad1]-ENTERING INPUT:print"hello"
+  When The user enter the python code from sheet "Sheet2" and 0 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:58.343[main]utilities.LoggerLoad1]-elementToCheck:outputtext
+[INFO ]2023-12-1817:48:58.398[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:58.423[main]utilities.LoggerLoad1]-hello
+[INFO ]2023-12-1817:48:58.423[main]utilities.LoggerLoad1]-EXPECTED:hello
+[INFO ]2023-12-1817:48:58.423[main]utilities.LoggerLoad1]-ACTUAL:hello
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+  <testcase name="The user submits python code #4" classname="Validating Graph Page" time="0.535">
+    <system-out><![CDATA[
+@graph
+Scenario Outline: The user submits python code                  # src/test/resources/features/DS10_Graph.feature:46
+[INFO ]2023-12-1817:48:58.457[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:58.746[main]utilities.LoggerLoad1]-ENTERING INPUT:hello
+  When The user enter the python code from sheet "Sheet2" and 1 # stepDefinition.DataStructure_SD.the_user_enter_the_sheet_and(java.lang.String,java.lang.Integer)
+  And The user click run button                                 # stepDefinition.DataStructure_SD.the_user_click_run_button()
+[INFO ]2023-12-1817:48:58.925[main]utilities.LoggerLoad1]-elementToCheck:alerttext
+[INFO ]2023-12-1817:48:58.956[main]utilities.LoggerLoad1]-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-1817:48:58.956[main]utilities.LoggerLoad1]-ACTUAL:NameError: name 'hello' is not defined on line 1
+  Then The user should see the expected output                  # stepDefinition.DataStructure_SD.the_user_should_see_the_expected_output()
+]]></system-out>
+  </testcase>
+</testsuite>
