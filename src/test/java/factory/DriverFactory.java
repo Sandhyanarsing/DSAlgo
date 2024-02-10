@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import utilities.LoggerLoad;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+// This is a Driver factory file
 public class DriverFactory {
 
 	public static WebDriver driver;
